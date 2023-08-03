@@ -88,7 +88,7 @@ const Landing = () => {
                 <div className="about-type">
                   <p>
                     Receive documents for work or study abroad. No need to deal with the embassy. 
-                    We do it for you so you don't lose valuable time.
+                    We do it for you so you don&#39;t lose valuable time.
                   </p>
                   <a href="#" className="btn btn-link">Read More<i className="flaticon-next"></i></a>
                 </div>

@@ -195,13 +195,22 @@ const WorkVisaServices = () => {
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
                   <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    Our team is the heartbeat of our mission. Combining expertise from various domains, including talent sourcing, career coaching, and visa assistance, they ensure that every candidate receives personalized attention and tailored solutions. Our passionate professionals are devoted to helping you achieve your dreams and aspirations.
+                    Our team is the heartbeat of our mission. Combining expertise from various domains, including
+                    talent sourcing, career coaching, and visa assistance, they ensure that every candidate
+                    receives personalized attention and tailored solutions. Our passionate professionals are
+                    devoted to helping you achieve your dreams and aspirations.
                   </div>
                   <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    We understand that embarking on a journey towards global opportunities can be overwhelming. That's why we offer unparalleled support throughout the entire process. Whether you need guidance on optimizing your resume, honing your interview skills, or preparing for a visa application, our support team is here for you at every step.
+                    We understand that embarking on a journey towards global opportunities can be overwhelming.
+                    That&#39;s why we offer unparalleled support throughout the entire process. Whether you need
+                    guidance on optimizing your resume, honing your interview skills, or preparing for a visa
+                    application, our support team is here for you at every step.
                   </div>
                   <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                  Trust and credibility are at the core of what we do. We are proud to be government certified in each of our partner countries, demonstrating our commitment to operating with the highest standards of integrity and transparency. Our certification reflects our adherence to legal and ethical practices, ensuring that your aspirations are in safe and capable hands.
+                    Trust and credibility are at the core of what we do. We are proud to be government certified in
+                    each of our partner countries, demonstrating our commitment to operating with the highest
+                    standards of integrity and transparency. Our certification reflects our adherence to legal
+                    and ethical practices, ensuring that your aspirations are in safe and capable hands.
 
                   </div>
                 </div>

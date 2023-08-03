@@ -41,7 +41,7 @@ const Layout = ({ children, title }) => {
         src="https://kit.fontawesome.com/9edb65c86a.js"
         crossOrigin="anonymous"
       ></Script>
-      <script src="https://js.paystack.co/v1/inline.js"></script>
+      <Script src="https://js.paystack.co/v1/inline.js"></Script>
 
         
 

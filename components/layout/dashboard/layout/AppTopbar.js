@@ -7,7 +7,7 @@ import { LayoutContext } from './context/layoutcontext';
 import AuthContext from "./../../../../context/AuthContext";
 
 const AppTopbar = forwardRef((props, ref) => {
-  const { loading, user, logout } = useContext(AuthContext);
+  const { user, logout } = useContext(AuthContext);
 
   const { layoutConfig, layoutState, onMenuToggle, showProfileSidebar } = useContext(LayoutContext);
   const menubuttonRef = useRef(null);
@@ -60,4 +60,5 @@ const AppTopbar = forwardRef((props, ref) => {
   );
 });
 
+App.displayName = 'AppTopbar';
 export default AppTopbar;

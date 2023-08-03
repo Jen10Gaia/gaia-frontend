@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import '../styles/globals.css';
 import './../styles/layout/layout.scss';
 import "react-toastify/dist/ReactToastify.css";
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 
 import { LayoutProvider } from './../components/layout/dashboard/layout/context/layoutcontext'
@@ -19,6 +20,8 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     setShowChild(true);
     import("bootstrap/dist/js/bootstrap");
+    import("bootstrap/dist/js/bootstrap.bundle")
+    
   }, [])
 
   if (!showChild) {

@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+import Script from "next/script";
 
 export default function Document() {
 
@@ -19,7 +20,8 @@ export default function Document() {
           href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
           rel="stylesheet"
         /> */}
-        <script src="https://js.paystack.co/v1/inline.js"></script>
+        <Script src="https://js.paystack.co/v1/inline.js"></Script>
+
 
         <link id="theme-css" href={`/themes/lara-light-indigo/theme.css`} rel="stylesheet" />
       </Head>

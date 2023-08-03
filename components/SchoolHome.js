@@ -4,7 +4,6 @@ import Link from "next/link";
 import Pagination from "react-js-pagination";
 
 import SchoolItem from "./school/SchoolItem";
-import Filters from "./layout/Filters";
 import SchoolFilter from "./layout/SchoolFilter";
 import { useRouter } from "next/router";
 

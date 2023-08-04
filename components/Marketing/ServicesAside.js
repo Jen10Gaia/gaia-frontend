@@ -52,7 +52,7 @@ const ServicesAside = () => {
               <li>Monday - Friday from </li>
               <li>8:00 a.m. to 8:00 p.m.</li>
             </ul>
-            <a href="#" className="btn btn-primary">Sign Up</a>
+            <Link href="/register" className="btn btn-primary" >Sign Up</Link>
           </div>
         </div>
       </div>

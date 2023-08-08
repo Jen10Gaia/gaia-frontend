@@ -10,38 +10,52 @@ import { AuthProvider } from "./../context/AuthContext";
 import { JobProvider } from "./../context/JobContext";
 import { SchoolProvider } from "./../context/SchoolContext";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 
 function MyApp({ Component, pageProps }) {
-  const [showChild, setShowChild] = useState(false);
+  //const [showChild, setShowChild] = useState(false);
 
   useEffect(() => {
-    setShowChild(true);
+    //setShowChild(true);
     import("bootstrap/dist/js/bootstrap");
-    
+
   }, [])
 
-  if (!showChild) {
-    return null;
-  }
-  if (typeof window === "undefined") {
-    return <></>;
-  } else {
-    return (
-      <>
-        <AuthProvider>
-          <LayoutProvider>
-            <JobProvider>
-              <SchoolProvider>
-                <Component {...pageProps} />
-              </SchoolProvider>
-            </JobProvider>
-          </LayoutProvider>
-        </AuthProvider>
-      </>
-    )
-  }
+  return (
+    <>
+      <AuthProvider>
+        <LayoutProvider>
+          <JobProvider>
+            <SchoolProvider>
+              <Component {...pageProps} />
+            </SchoolProvider>
+          </JobProvider>
+        </LayoutProvider>
+      </AuthProvider>
+    </>
+  )
+
+  // if (!showChild) {
+  //   return null;
+  // }
+  // if (typeof window === "undefined") {
+  //   return <></>;
+  // } else {
+  //   return (
+  //     <>
+  //       <AuthProvider>
+  //         <LayoutProvider>
+  //           <JobProvider>
+  //             <SchoolProvider>
+  //               <Component {...pageProps} />
+  //             </SchoolProvider>
+  //           </JobProvider>
+  //         </LayoutProvider>
+  //       </AuthProvider>
+  //     </>
+  //   )
+  // }
 
 
 

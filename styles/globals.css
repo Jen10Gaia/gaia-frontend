@@ -4572,5 +4572,7 @@ button {
 
 .pt_container__nav > small {
   color: #777;
+  margin-bottom: 1rem;
   margin-right: 1rem;
+  display: inline-block;
 }

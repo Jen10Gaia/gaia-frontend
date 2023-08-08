@@ -123,7 +123,7 @@ const JobDetails = ({ job, candidates, access_token }) => {
                     <tr>
                       <td>Price</td>
                       <td>:</td>
-                      <td>${job.price}</td>
+                      <td>KES{job.price}</td>
                     </tr>
 
                     <tr>

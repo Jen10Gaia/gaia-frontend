@@ -51,8 +51,8 @@ const UpdateProfile = ({ access_token }) => {
     }
 
     if (updated) {
-      toast.success('Profile Updated Successfully')
       setUpdated(false);
+      toast.success('Profile Updated Successfully')
       router.push("/upload/resume");
     }
   }, [error, user, updated]);

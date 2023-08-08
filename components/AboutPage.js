@@ -19,12 +19,12 @@ const AboutPage = () => {
           <div id="page-banner" className="page-banner-main-block">
             <div className="container">
               <h1 className="page-banner-heading text-center text-white">About us</h1>
-              <div className="page-banner-block">
+              {/* <div className="page-banner-block">
                 <ol className="breadcrumb">
                   <li><Link href="/" title="Home">Home</Link></li>
                   <li className="active">About us</li>
                 </ol>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

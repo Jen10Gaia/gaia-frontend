@@ -16,12 +16,12 @@ const WorkVisaServices = () => {
           <div id="page-banner" class="page-banner-main-block">
             <div className="container">
               <h1 className="page-banner-heading text-center text-white">Job Services </h1>
-              <div className="page-banner-block text-center">
+              {/* <div className="page-banner-block text-center">
                 <ol className="breadcrumb">
                   <li><a href="index.html" title="Home">Home</a></li>
                   <li className="active">Job Services</li>
                 </ol>
-              </div>
+              </div> */}
             </div>
           </div>
 

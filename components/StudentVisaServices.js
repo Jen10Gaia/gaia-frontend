@@ -17,12 +17,12 @@ const StudentVisaServices = () => {
           <div id="page-banner" className="page-banner-main-block">
             <div className="container">
               <h1 className="page-banner-heading text-center text-white">Scholarship Services</h1>
-              <div className="page-banner-block text-center">
+              {/* <div className="page-banner-block text-center">
                 <ol className="breadcrumb">
                   <li><a href="index.html" title="Home">Home</a></li>
                   <li className="active">Scholarship Services Visa</li>
                 </ol>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

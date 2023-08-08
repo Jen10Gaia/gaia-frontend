@@ -49,8 +49,8 @@ const ServicesAside = () => {
             <ul>
               <li> <h3>Support Email</h3> </li>
               <li><a href="email:" title="Contact" className="text-white">info@gaia.com</a></li>
-              <li>Monday - Friday from </li>
-              <li>8:00 a.m. to 8:00 p.m.</li>
+              <li>Monday - Friday</li>
+              {/* <li>8:00 a.m. to 8:00 p.m.</li> */}
             </ul>
             <Link href="/register" className="btn btn-primary" >Sign Up</Link>
           </div>

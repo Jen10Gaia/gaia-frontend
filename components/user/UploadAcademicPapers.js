@@ -67,7 +67,7 @@ const UploadAcademicPapers = ({ access_token }) => {
         <div className="right">
           <div className="rightContentWrapper">
             <div className="headerWrapper profileUploadHeader">
-              <h3> UPLOAD ACADEMIC PAPERS </h3> 
+              <h3> UPLOAD ACADEMIC Documents </h3> 
             </div>
             <form className="form" onSubmit={submitAcademicPapersHandler}>
               <div className="inputWrapper">
@@ -96,7 +96,7 @@ const UploadAcademicPapers = ({ access_token }) => {
                   >
                     <b>
                       <i aria-hidden className="fas fa-download"></i> Download
-                      Your Academic Papers
+                      Your Academic Documents
                     </b>
 
                   </Link>

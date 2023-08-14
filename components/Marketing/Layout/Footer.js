@@ -13,9 +13,10 @@ const Footer = () => {
             <div className="col-md-6">
               <div className="copyright-block">
                 <p>
+                  
                   &copy;
                   {moment().year()}&nbsp;
-                  <a href="index.php" title="Global Access Visa Consulting & Immigration">
+                  <a href="#" title="Global Access Visa Consulting & Immigration">
                     Global Access Immigration Agency
                   </a>
                   . All Rights Reserved.
